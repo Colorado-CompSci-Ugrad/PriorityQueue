@@ -81,9 +81,9 @@ This homework is all about implementing (fully) an abstract data
 type. The ADT you're implementing is a priority queue, which has the
 following operations:
 
-- insert element with some numeric priority
-- remove the highest priority element
-- peek at the highest priority element
+- Insert element with some numeric priority
+- Remove the highest priority element
+- Peek at the highest priority element
 
 ### Implementation is your call
 
@@ -99,11 +99,11 @@ Another choice is to implement a heap. There's a lecture on this.
 
 Since our testing framework has no knowledge about how your
 implementation is structured, it can only interact with your code via
-the priority queue interface. This is defined in `pq.h`.
+the priority queue interface. This is defined in a struct `pq` in `PriorityQueue.h` .
 
 As a result, it is not possible to test your functions independently.
 
-Testing `insert`, `peek` and `remove` all require `init_priority_queue`
+Testing `Insert`, `Peek` and `Remove` all require `InitPriorityQueue`
 to work. There are other dependencies. Take a look at the unit tests.
 
 I recommend you implement your functions in this order:

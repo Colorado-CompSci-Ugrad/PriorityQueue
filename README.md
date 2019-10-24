@@ -1,5 +1,5 @@
-# VectorADT
-In this assignment you will be writing an ADT for an array of size 10.
+# PriorityQueue
+In this assignment you will be implementing a priority queue.
 
 Project has following folder tree
 

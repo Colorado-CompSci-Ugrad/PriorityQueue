@@ -8,6 +8,7 @@
 #include <fstream>
 #include <iostream>
 #include <math.h>
+#include <cmath>
 
 class test_PriorityQueue : public ::testing::Test {
 protected:

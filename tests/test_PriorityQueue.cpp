@@ -134,11 +134,11 @@ TEST_F(test_PriorityQueue,RemoveTest) {
 	add_points_to_grade(1);
 
 	popped = my_pqueue.Remove(queue); // B F G
-	ASSERT_EQ("Camel", popped);
+	ASSERT_TRUE(popped=="Camel" || popped=="Gorilla");
 	add_points_to_grade(1);
 
 	popped = my_pqueue.Remove(queue); // B F
-	ASSERT_EQ("Gorilla", popped);
+	ASSERT_TRUE(popped=="Camel" || popped=="Gorilla");
 	add_points_to_grade(1);
 
 	popped = my_pqueue.Remove(queue); // B

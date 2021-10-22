@@ -23,7 +23,7 @@ public:
     ~PriorityQueue();
 
     // init_priority_queue allocates memory for a pq structure (which you
-    // are responsble for defining in the pq_struct.h file. It is
+    // are responsble for defining above. It is
     // completely up to you how this should work.
     shared_ptr<pq> InitPriorityQueue();
 
